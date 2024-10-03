@@ -1,0 +1,397 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*landing*/
+#landing {
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    padding-left: 18%;
+    padding-right: 18%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#logo {
+    width: 70px;
+    cursor: pointer;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-menu {
+    list-style: none;
+    color: #fff;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:visited {
+    color: grey;
+}
+
+li:hover {
+    color: blue;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff;
+    font-family: "Lexend Peta", sans-serif;
+    font-weight: 400;
+    font-style: 20px;
+}
+
+#header {
+    text-align: end;
+    padding-top: 150px;
+}
+
+#head {
+    font-family: "Dr Sugiyama", cursive;
+    color: #fff;
+    font-size: 62px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 0;
+}
+
+#title {
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: antiquewhite;
+}
+
+#btn-download {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 24px;
+    font-style: 18px;
+    font-weight: bolder;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+#btn-download:hover {
+    background-color: #fff;
+    color: black;
+}
+
+#phone {
+    width: 400px;
+    border-radius: 15px;
+}
+
+/*landing2*/
+#landing2 {
+    width: 100%;
+    height: 90vh;
+    background-color: antiquewhite;
+    padding: 12%;
+    box-sizing: border-box;
+}
+
+#desc-txt {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+#head2 {
+    margin: 0;
+    font-style: 42px;
+    font-weight: 300;
+    font-family: "Lexend Peta", sans-serif;
+}
+
+#title2 {
+    font-style: 16px;
+    font-family: "Lexend peta";
+    line-height: 1.42857;
+    margin-top: 24px;
+}
+
+#quote {
+    font-size: 16.5px;
+    color: rgb(66, 65, 65);
+    font-family: monospace;
+    line-height: 1.42857;
+    border-left: 8px solid #222;
+    margin: 0px 0px 20px;
+    padding: 0px 20px;
+}
+
+#btn-download2 {
+    background-color: transparent;
+    color: #222;
+    border: 1px solid #222;
+    padding: 12px 24px;
+    font-style: 18px;
+    font-weight: bolder;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+#btn-download2:hover {
+    background-color: rgb(228, 216, 202);
+    color: black;
+}
+
+#desc-img {
+    width: 80%;
+}
+
+#desc2 {
+    display: inline-block;
+    width: 40%;
+    text-align: end;
+}
+
+/*landing3*/
+#landing3 {
+    background-color: powderblue;
+    width: 100%;
+    height: 90vh;
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+#desc3 {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+
+#desc-txt2 {
+    display: inline-block;
+    width: 45%;
+}
+
+#btn-download3 {
+    background-color: transparent;
+    color: #222;
+    border: 1px solid #222;
+    padding: 12px 24px;
+    font-weight: bolder;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+#btn-download3:hover {
+    background-color: lightcyan;
+    color: black;
+}
+
+#desc-img1 {
+    width: 80%;
+    position: absolute;
+    top: -240px;
+    left: 10px
+}
+
+/*landing4*/
+#landing4 {
+    width: 100%;
+    height: 90vh;
+    background-color: lavender;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+#desc-txt3 {
+    margin: 5% 25%;
+    width: 50%;
+    font-size: larger;
+    line-height: 2px;
+}
+
+.follow-item {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+/*landing5*/
+#landing5 {
+    widows: 100%;
+    height: 20vh;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: "Lexend Peta", sans-serif;
+}
+
+span {
+    color: deepskyblue;
+}
+
+#copy {
+    color: bisque;
+}
+
+/*responsive webpage*/
+@media (max-width:920px) {
+    #landing4 {
+        width: 100%;
+        height: 90vh;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    #desc-txt {
+        width: 100%;
+        font-size: large;
+    }
+
+    #desc2 {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width:691px) {
+    #header {
+        padding-top: 40px;
+    }
+
+    #nav-menu {
+        text-align: right;
+    }
+
+    #head {
+        font-style: 48px;
+    }
+
+    #title {
+        font-size: 18px;
+    }
+
+    #btn-download {
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 8px 16px;
+        font-style: 14px;
+        font-weight: bolder;
+        border-radius: 4px;
+        margin-top: 16px;
+        margin-bottom: 36px;
+    }
+
+    #landing2 {
+        height: 100vh;
+        width: 100%;
+    }
+
+    #desc-txt {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    #desc2 {
+        width: 40%;
+    }
+
+    #desc-img {
+        width: 130%;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+
+    #desc3 {
+        width: 100%;
+        margin-top: 250px;
+    }
+
+    #desc-txt2 {
+        width: 100%;
+    }
+
+    #landing3 {
+        height: 90vh;
+        padding-top: 50px;
+    }
+
+    #btn-download3 {
+        background-color: transparent;
+        color: #222;
+        border: 1px solid #222;
+        padding: 8px 20px;
+        font-weight: bolder;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    #desc-img1 {
+        width: 50%;
+        position: absolute;
+        top: -240px;
+        margin-left: 70px;
+    }
+
+    #landing4 {
+        width: 100%;
+        height: 70vh;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    #desc-txt3 {
+        margin: 20px 0px;
+        padding: 8px;
+        width: 100%;
+        font-size: large;
+    }
+
+    .follow-item {
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+    #landing5 {
+        height: 30vh;
+    }
+}
+
+@media (max-width:400px) {
+    body {
+        margin: 0;
+    }
+
+    #landing3 {
+        height: 100vh;
+        padding-top: 50px;
+    }
+
+    #desc-txt3 {
+        margin: 20px 0px;
+        padding: 5px;
+        width: 100%;
+        font-size: large;
+    }
+
+    #desc-img1 {
+        width: 70%;
+        position: absolute;
+        top: -250px;
+        margin-left: 30px;
+    }
+
+    #landing5 {
+        widows: 100%;
+        height: 30vh;
+    }
+}
